@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>empty cart</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+       
+        background-color:gainsboro;
+      }
+      .box1 {
+        margin:50px;
+        position:relative;
+        height: 40vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box1 img {
+        width: 340px;
+        height:340px;
+        aspect-ratio:3/2;
+        object-fit:contain;
+       background:transparent;
+       margin-bottom:25px;
+      padding-left:0;
+   position:absolute;
+   top:0;
+   left:0;
+   margin:10px;
+ cursor: pointer; 
+
+      }
+      .box2 {
+        height: 12vh;
+        margin-left:50px;
+        margin-right:50px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .content{
+        background-color:transparent;
+       
+      }
+      .content button{
+
+        margin:10px;
+        border-radius: 15px;
+        color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.content p:hover{
+   color:red;
+    text-decoration: underline;
+}
+
+
+   
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+       <img src="https://m.media-amazon.com/images/G/31/cart/empty/kettle-desaturated._CB424694257_.svg">
+       <div class="content">
+        <h1 style="background-color:transparent;">Your Amazon Cart is empty</h1>
+        <p style="background-color:transparent; padding-top:8px; padding-bottom:10px; color:#007185">Shop today's deals</p>
+        <button style="background-color:#fac94c;">Sign in to your account</button>
+        <button style="background-color:transparent;">Sign up now</button>
+       </div>
+    </div>
+  </br>
+    <div class="box2"></div>
+    <pre><p style="margin-top:45px;margin-left:30px; font-size:14px;">The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+Do you have a promotional code? We'll ask you to enter your claim code when it's time to pay.</p></pre>
+  </body>
+</html>
